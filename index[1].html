@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ Streamz IPTV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="MJ Streamz Logo" class="logo">
+        <h1>Welcome to MJ Streamz</h1>
+        <p>Your #1 IPTV Reseller Solution</p>
+    </header>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Over 15,000 Live Channels</li>
+            <li>VOD & TV Series</li>
+            <li>HD, FHD & 4K Quality</li>
+            <li>24/7 Support</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-card">
+            <h3>1 Month</h3>
+            <p>$15</p>
+        </div>
+        <div class="pricing-card">
+            <h3>3 Months</h3>
+            <p>$35</p>
+        </div>
+        <div class="pricing-card">
+            <h3>12 Months</h3>
+            <p>$100</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Need help or want to place an order?</p>
+        <a href="https://t.me/mjstreamz" target="_blank" class="btn">Message on Telegram</a>
+    </section>
+
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="order-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <label for="plan">Select Plan:</label>
+            <select id="plan" name="plan" required>
+                <option value="">-- Select --</option>
+                <option value="1 Month - $15">1 Month - $15</option>
+                <option value="3 Months - $35">3 Months - $35</option>
+                <option value="12 Months - $100">12 Months - $100</option>
+            </select>
+
+            <label for="message">Additional Notes:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 MJ Streamz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
